@@ -26,7 +26,8 @@ def get_filters():
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
-    Add comment 
+    Add comment
+    Add comment refactoring branch 
     """
     print("-" * 40)
     print("Hello! Let's explore some US bikeshare data!")
@@ -93,6 +94,7 @@ def load_data(city, month, day):
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
+    Add comment  
     """
 
     # load data file into a dataframe
